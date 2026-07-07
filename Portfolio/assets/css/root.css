@@ -1,0 +1,48 @@
+:root {
+  --bg-dark: oklch(0.1 0.005 67);
+  --bg: oklch(0.15 0.005 67);
+  --bg-light: oklch(0.2 0.005 67);
+  --text: oklch(0.96 0.01 67);
+  --text-muted: oklch(0.76 0.01 67);
+  --highlight: oklch(0.5 0.01 67);
+  --border: oklch(0.4 0.01 67);
+  --border-muted: oklch(0.3 0.01 67);
+  --primary: oklch(0.76 0.1 67);
+  --secondary: oklch(0.76 0.1 247);
+  --danger: oklch(0.7 0.05 30);
+  --warning: oklch(0.7 0.05 100);
+  --success: oklch(0.7 0.05 160);
+  --info: oklch(0.7 0.05 260);
+
+  --gradient: linear-gradient(0deg, var(--bg) 95%, var(--bg-light));
+  --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+  --border-card: solid 1px var(--bg);
+  --border-highlight: solid 1px var(--text);
+  --bg-svg: rgba(35, 35, 35, 0.2);
+
+}
+
+body.light {
+  --bg-dark: oklch(0.92 0.005 67);
+  --bg: oklch(0.96 0.005 67);
+  --bg-light: oklch(1 0.005 67);
+  --text: oklch(0.15 0.01 67);
+  --text-muted: oklch(0.4 0.01 67);
+  --highlight: oklch(1 0.01 67);
+  --border: oklch(0.6 0.01 67);
+  --border-muted: oklch(0.7 0.01 67);
+  --primary: oklch(0.4 0.1 67);
+  --secondary: oklch(0.4 0.1 247);
+  --danger: oklch(0.5 0.05 30);
+  --warning: oklch(0.5 0.05 100);
+  --success: oklch(0.5 0.05 160);
+  --info: oklch(0.5 0.05 260);
+
+  --gradient: linear-gradient(0deg, var(--bg) 95%, var(--bg-light));
+  --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+  --border-card: solid 1px var(--bg);
+  --border-highlight: solid 1px var(--text);
+  --shadow: 0 2px 2px oklch(0 0 0 / 0.1), 0 4px 4px oklch(0 0 0 / 0.07), 0 4px 4px oklch(0 0 0 / 0.15);
+  --bg-svg: rgba(168, 168, 168, 0.2);
+
+}
